@@ -1,0 +1,599 @@
+@media (min-width:1520px) {
+        .h-five{
+        margin-top: -450px;
+        font-size: 35px;
+        }
+        .mobile {
+            color: #ffffff;
+            font-size: 30px;
+            position: absolute;
+            opacity: 0;
+        }
+        
+        .h-one{
+            width: 100%;
+            height: auto;
+            padding-top: 50px;
+            color: #fff;
+            font-size: 60px;
+        }
+        .h-one-duplicate{
+            margin-top: -380px;
+        }
+        .p-first {
+            width: 950px;
+            font-size: 30px;
+            margin-top: -290px;
+        }
+        .btn{
+            margin-top: -100px;
+        }                               /* 1st page end*/
+
+                                        /* 2nd page Start*/
+        .service {
+            font-size: 30px;
+        }
+        #h-cls {
+            font-size: 40px;
+        }
+        .box {
+            margin-top: 10px;
+        }
+        .all-box {
+            max-width: 400px;
+        }
+        .text h1{
+            color: #fff;
+            font-size: 35px;
+            }
+            .text p{
+                font-size: 25px;
+            }                                   /* 2nd page end*/
+           
+            .ab-btn{                               /* 3rd page Start*/
+                margin-top: 20px;
+            }
+            .ab-text{
+                margin-left: -25px;
+                color: #fff;
+                font-size: 25px;
+            } 
+                                    /******* 1920 px end ******/
+  }
+
+  @media (max-width:1420px) {           /******* 1520 px start ******/
+    .service {
+        font-size: 20px;
+    }
+    .mobile {
+        color: #ffffff;
+        font-size: 30px;
+        position: absolute;
+        opacity: 0;
+    }
+    #h-cls {
+        font-size: 35px;
+    }
+    .box {
+        margin-top: 10px;
+    }
+    .all-box {
+        max-width: 300px;
+        padding: 0px 5px;
+    }
+    .text h1{
+        color: #fff;
+        font-size: 25px;
+        }
+        .text p{
+            font-size: 18px;
+        }   
+        /*.mobile {
+            color: #ffffff;
+            font-size: 30px;
+            position: absolute;
+            visibility: hidden;
+            opacity: 0;
+            width: 0px;
+            height: 0px;
+        }
+        .poin{
+            display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                height: 0px;
+                position: absolute;
+                top: -10px;
+                right: 65px;
+                width: 0px;
+                position: absolute;
+            visibility: hidden;
+            opacity: 0;
+            width: 0px;
+            height: 0px;
+        }                    /*** 1520px end ***/
+  }  
+
+@media (max-width:1200px) {      /******* 1200 px start ******/
+    .logo{
+        flex-basis: 40%;
+    }
+    .menu{
+        flex-basis: 60%;
+    }
+    .service {
+        font-size: 20px;
+    }
+    #h-cls {
+        font-size: 35px;
+    }
+    .box {
+        margin-top: 10px;
+    }
+    .all-box {
+        max-width: 300px;
+        padding: 0px 5px;
+    }
+    .text h1{
+        color: #fff;
+        font-size: 25px;
+        }
+        .text p{
+            font-size: 18px;
+        }                                   /* 2nd page end*/
+                                   /******* 1200 px end ******/
+
+  }
+
+   
+  @media (max-width:1000px) {      /******* 1000 px start ******/
+    .logo{
+        flex-basis: 40%;
+    }
+    .menu{
+        flex-basis: 60%;
+    }
+    .logo img{
+        max-width: 205px;
+        height: auto;
+    }
+        .menu ul{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        .menu ul li{
+            padding: 0px 10px;
+            margin-top: 10px;
+        }
+        .menu ul li a{
+            font-size: 18px;
+        }                            /* 1st page end*/
+
+    .service {                      /* 2nd page start*/
+        font-size: 20px;
+    }
+    #h-cls {
+        font-size: 30px;
+    }
+        .box {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        justify-content: center;
+        max-width: 100%;
+        height: auto;
+    }
+    .all-box {
+        max-width: 30%;
+        padding: 0px 5px;
+        margin-left: 20px;
+    }
+    .text h1{
+        color: #fff;
+        font-size: 18px;
+        }
+        .text p{
+            font-size: 14px;
+        }                                     /* 2nd page end*/
+                                                /* 3rd page Start*/
+        .ab-image{
+        width:280px ;
+        height: 340px;
+        background: #ddd;
+        margin: auto;
+        border: 5px solid #0fa8c5;
+        border-radius: 20px;
+        text-align: center;
+        margin-top: -120px;
+        position: relative;
+        z-index: 1;
+        }
+        .my-photo img{
+        height: 340px;
+        width: auto;
+        margin-top: -10px;
+        }
+        .ab-text{
+            margin-left: 40px;
+            color: #fff;
+            font-size: 15px;
+            margin-top: -20px;
+            margin-bottom: -20px;
+        }
+        .btn a {
+            font-size: 15px;
+        }
+
+        .ft-containt {
+            max-width: 60%;
+        }
+        .fa-brands {
+            font-size: 20px;
+            padding: 10px 20px;
+  }
+}
+@media (max-width:776px){
+    .h-five{                                    /********** Home page text ***********/
+        color:#0fa8c5;
+        margin-top: -400px;
+        text-transform:capitalize ;
+    }
+    .h-one{
+        padding-top: 50px;
+        color: #fff;
+        font-size: 40px;
+    }
+    .h-one-duplicate{
+        margin-top: -325px;
+    }
+    .p-first{
+        width: 630px;
+        font-size: 16px;
+        margin: auto;
+        margin-top: -240px;
+        font-style: italic;
+    }
+    .logo img{
+        width: 300px;
+        height: auto;
+        position: relative;
+        top: 25px;
+        left: -20px;
+    }
+    .div-m {
+        width: 105%;
+        height: 85px;
+        background: #f53b57;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+    }
+    .menu{
+        
+    }
+    .menu ul{
+        visibility: hidden;
+        opacity: 0;
+        height: 0;
+        width: 216px;
+        position: absolute;
+    }
+    .poin {
+        position: absolute;
+        top: 23px;
+        right: 40px;
+        height: 30px;
+        width: 30px;
+        color: #fff;
+        opacity: 0;
+    }
+    .menu .poin:checked ~ ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 0px;
+        position: absolute;
+       top: -10px;
+        right: 65px;
+        width: 216px;
+        opacity: 1;
+        visibility: visible;
+    }
+        .mobile {
+            color: #ffffff;
+            font-size: 35px;
+            position: absolute;
+            right: 40px;
+            top: 25px;
+            pointer-events: none;
+            opacity: 1;
+        }
+    .menu ul li{
+        line-height: 0.7;
+    }
+    .menu ul li a{
+        font-size: 20px;
+        color: #fff;
+        transition: 0.2s;
+    }
+    .service {                      /* 2nd page start*/
+        font-size: 20px;
+        text-align: center;
+    }
+    #h-cls {
+        font-size: 25px;
+        text-align: center;
+    }
+    .box {
+        max-width:100%;
+        justify-content: center;
+    }
+    .all-box {
+        padding: 0px 5px;
+            max-width: 100%;
+            margin: 5px 5px;
+            flex-basis: 48%;
+        
+    }
+    .text h1{
+        margin-top: 2px;
+        color: #fff;
+        font-size: 15px;
+        }
+        .text p{
+            font-size: 14px;
+        }
+    
+                                            /* 3rd page Start*/
+    .ab-bg{
+    background: #222;
+    margin-top: -70px;
+}
+.about{
+display: flex;
+flex-direction:row ;
+flex-wrap: wrap;
+margin-top: 50px;
+margin-bottom: 50px;
+}
+.ab-btn {
+    margin: 0;
+}
+.ab-btn > a {
+    margin-top: 20px;
+    font-size: 15px;
+}
+    .ab-image {
+        width: 169px;
+        height: 200px;
+        background: #ddd;
+        margin: auto;
+        border: 5px solid #0fa8c5;
+        border-radius: 20px;
+        text-align: center;
+        margin-top: -20px;
+        position: relative;
+        z-index: 1;
+        margin-top: 40px;
+    }
+    .my-photo img{
+    height: 200px;
+    width: auto;
+    }
+    .ab-text{
+        flex-basis: 100%;
+        text-align: center;
+        margin-left: 0px;
+    }
+    
+    .ab-text h4{
+        font-size: 15px;
+    }
+    .ab-text h3{
+        font-size: 15px;
+    }
+    .ab-text p{
+        font-size: 13px;
+    }
+    .futer{
+        margin-bottom: 0;
+    }
+  }
+
+  @media (max-width:576px){
+    .logo img{
+        width: 300px;
+        height: auto;
+        position: relative;
+        top: 25px;
+        left: 0;
+    }
+    .div-m {
+        width: 105%;
+        height: 85px;
+        background: #f53b57;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+    }
+    .menu{
+        
+    }
+    .menu ul{
+        visibility: hidden;
+        opacity: 0;
+        height: 0;
+        width: 216px;
+        position: absolute;
+    }
+    .poin {
+        position: absolute;
+        top: 23px;
+        right: 40px;
+        height: 30px;
+        width: 30px;
+        color: #fff;
+        opacity: 0;
+    }
+    .menu .poin:checked ~ ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 0px;
+        position: absolute;
+       top: -10px;
+        right: 65px;
+        width: 216px;
+        opacity: 1;
+        visibility: visible;
+    }
+        .mobile {
+            color: #ffffff;
+            font-size: 35px;
+            position: absolute;
+            right: 40px;
+            top: 25px;
+            pointer-events: none;
+            opacity: 1;
+        }
+    .menu ul li{
+        line-height: 0.7;
+    }
+    .menu ul li a{
+        font-size: 20px;
+        color: #fff;
+        transition: 0.2s;
+    }
+    .service {                      /* 2nd page start*/
+        font-size: 20px;
+    }
+    #h-cls {
+        font-size: 25px;
+    }
+    .box {
+        margin-top: -5px;
+        margin-bottom: 0;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 529px;
+        justify-content: space-around;
+    }
+    .all-box {
+        flex-direction: column;
+        margin-left: 40px;
+        width: 100%;
+        padding: 0px 5px;
+        justify-content: center;
+    }
+    .text h1{
+        color: #fff;
+        font-size: 18px;
+        }
+        .text p{
+            font-size: 14px;
+        }
+    
+                                            /* 3rd page Start*/
+    .ab-bg{
+    background: #222;
+    margin-top: 50px;
+}
+.about{
+display: flex;
+flex-direction:row ;
+flex-wrap: wrap;
+margin-top: 50px;
+margin-bottom: 50px;
+}
+.ab-btn {
+    margin: 0;
+}
+.ab-btn > a {
+    margin-top: 20px;
+    font-size: 15px;
+}
+    .ab-image{
+    width:169px ;
+    height: 200px;
+    background: #ddd;
+    margin: auto;
+    border: 5px solid #0fa8c5;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: -20px;
+    position: relative;
+    z-index: 1;
+    margin-top: 20px;
+    }
+    .my-photo img{
+    height: 200px;
+    width: auto;
+    }
+    .ab-text{
+        width: 100%;
+        padding-right: 5px;
+        color: #fff;
+        font-size: 13px;
+        flex-basis: 100%;
+        margin: auto;
+    }
+    .ab-text h4{
+        font-size: 15px;
+    }
+    .ab-text h3{
+        font-size: 15px;
+    }
+    .ab-text p{
+        font-size: 13px;
+    }
+    .futer{
+        margin-bottom: 0;
+    }
+  }                                     /*********** 776 end *************/
+  @media (max-width:476px){
+    .h-one{
+        font-size: 35px;
+    }
+    .h-one-duplicate{
+        font-size: 37px;
+    }
+    .p-first{
+        font-size: 14px;
+    }
+    .box{}
+    .all-box{
+        flex-basis: 60%;
+    }
+  }                                           /*********** 576 end *************/  
+
+  @media (max-width:425px){
+    .h-one{
+        font-size: 35px;
+        padding: 70px 0px;
+    }
+    .h-one-duplicate{
+        font-size: 37px;
+    }
+    .p-first{
+        font-size: 18px;
+    }
+    .box{}
+    .all-box{
+        flex-basis: 60%;
+    }
+    .btn{
+        margin: -70px 0px;
+    }
+    .fa-brands {
+        font-size: 18px;
+        padding: 7px 14px;
+    }
+    .ab-image{
+        margin-top: 30px;
+    }
+    
+  }  
+  
