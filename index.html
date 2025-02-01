@@ -21,7 +21,419 @@
 <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
 
-            <link rel="stylesheet" href="Style.css">
+            <style>
+                *{
+    font-family: "Pacifico", serif;
+}
+body{
+    background: #000;
+}
+a, li{
+    list-style: none;
+    text-decoration: none;
+}       
+.top{                                                                   /******Backgraund*******/
+    background: url(Curve\ blue.jpg) no-repeat center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 530px;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.logo{
+
+}
+.menu{
+
+}
+.logo img{
+    width: 300px;
+    height: auto;
+}
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+.mobile {
+    color: #ee0d0d;
+    font-size: 30px;
+    position: absolute;
+    opacity: 0;
+}
+.poin{
+    display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 0px;
+        position: absolute;
+        top: -10px;
+        right: 65px;
+        width: 216px;
+        position: absolute;
+}
+.menu ul li{
+    padding: 0px 20px;
+}
+.menu ul li a{
+    font-size: 20px;
+    color: #fff;
+    transition: 0.2s;
+}
+.menu ul li a:hover{                            /*menu hover*/
+    color: #0fa8c5;
+    box-shadow: 0px 0px 6px 0px rgba(0, 255, 221, 1);
+    transition: 0.2s;
+}
+.h-five{                                    /********** Home page text ***********/
+    color:#0fa8c5;
+    margin-top: -400px;
+    text-transform:capitalize ;
+}
+.h-one{
+    padding-top: 50px;
+    color: #fff;
+    font-size: 50px;
+}
+.h-one-duplicate{
+    margin-top: -325px;
+}
+.p-first{
+    width: 630px;
+    font-size: 18px;
+    margin: auto;
+    margin-top: -240px;
+    font-style: italic;
+}
+.btn{                                   /* Button*/
+    margin-top: -100px;
+}
+.btn a{
+    text-decoration: none;
+    color: #ffffff;
+    background: #0fa8c5;
+    border-radius: 50px;
+    font-size: 25px;
+    padding: 10px 30px;
+    border: 2px solid transparent;
+    transition: 0.3s;
+}
+.btn span img{
+    max-height: 30px;
+   max-width: auto;
+}
+#sp-1{
+    font-weight: bold;
+    margin-left: -20px;
+    color: #fff;
+    animation: talk 1s infinite;            /* animated line*/
+}
+#sp-2{
+    font-weight: bold;
+    margin-left: -17px;
+    color: #fff;
+    animation: talk 0.9s infinite;          /* animated line*/
+}
+#sp-3{
+    font-weight: bold;
+    margin-left: -17px;
+    color: #fff;
+    animation: talk 0.8s infinite;  /* animated line*/
+}
+.btn span span {}
+.btn span span span {}
+.btn a:hover{                                       /***butoon hover***/
+    border: rgba(0, 255, 221, 1) solid 2px;
+    box-shadow: 0px 0px 6px 0px rgba(0, 255, 221, 1);
+    transition: 0.3s;
+}
+                                    /*butoon end*/
+
+.service{                   /************* service section or BOX ****************/
+    color: #0fa8c5;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+}
+#h-cls{
+color: #fff;
+font-size: 35px;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    margin-top: 20px;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.all-box{
+    padding: 0px 5px;
+    margin-top: 30px;
+    max-width: 329px;
+    background: #222;
+    border-radius: 20px;
+}
+.text h1{
+color: #fff;
+font-size: 25px;
+}
+.text p{
+    color: #fff;
+}
+.box-icon {
+    background: none;
+}
+                                            /************* service section end ****************/
+
+                                            /*************page 3 or about ****************/
+.ab-bg{
+    background: #222;
+    margin-top: 50px;
+}
+.about{
+    display: flex;
+    flex-direction:row ;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.ab-btn{
+    margin-top: 20px;
+}
+.ab-text{
+    margin-left: -25px;
+    color: #fff;
+    font-size: 20px;
+}
+.ab-image{
+    width:400px ;
+    height: 450px;
+    background: #ddd;
+    margin: auto;
+    border: 5px solid #0fa8c5;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: -120px;
+    position: relative;
+    z-index: 1;
+}
+.my-photo img{
+    height: 450px;
+    width: auto;
+    margin-top: -10px;
+}
+.ab-image::after{           /* after effect */
+    content: "Sukanto Malo";
+    width:100% ;
+    height: 440px;
+    background: #000;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 3;
+    border-radius: 15px;
+    border: 5px solid transparent;
+    opacity: 0;
+    visibility: hidden;
+    font-size: 30px;
+    text-align: center;
+    line-height: 440px;
+    color: #0fa8c5;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.ab-image:hover::after{     /* hover */
+    height: 440px;
+    opacity: 0.5;
+    visibility: visible;
+    transition: 0.5s;
+}                       /*********** page-3 or About end ************/
+
+
+.futer{                             /**** futer section ****/
+    max-width: 100%;
+    height: auto;
+    margin-top: 50px;
+    background-color: #000;
+    margin-bottom: 30px;
+}
+.ft-containt{
+    box-shadow: 0px 0px 6px 0px rgba(0, 255, 221, 1);
+    padding: 10px 0px;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+.ft-containt:hover{
+    padding: 10px 0px;
+    transition: 0.3s;
+    cursor: pointer;
+    border-radius: 10px;
+    animation: ft 3s infinite;
+}
+.ft-icon{                  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:400px ;
+    height: 60px;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+}
+.fa-brands{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-image: linear-gradient(to right, red , rgb(0, 180, 54));
+    align-self: center;
+    font-size: 30px;
+    justify-content: center;
+    margin: auto;
+    padding: 10px 25px;
+    margin-left: 5px;
+    border-radius: 50%;
+    color: #fff;
+    transform: rotate(-360deg);
+    transition: 1s;
+}
+.fa-brands:hover{               /************ hover *********/
+    background-image: linear-gradient(to right, rgb(129, 0, 168) , rgb(3, 135, 158));
+    transform: rotate(360deg);
+    transition: 1s;
+}                                          /**** futer section end ****/
+
+/*.animation{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.an-1{
+    margin: auto;
+    background: #e67e22;
+    width: 300px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    animation: an-1 1.5s infinite;
+}
+.an-2 {
+    background: #9b59b6;
+    width: 250px;
+    height: 40px;
+    margin: auto;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    left: 28px;
+    justify-self: center;
+    animation: an-1 1.6s infinite;
+}
+.an-3 {
+    background: #e74c3c;
+    width: 200px;
+    height: 30px;
+    margin: auto;
+    border-radius: 50%;
+    position: absolute;
+    justify-self: center;
+    top: 10px;
+    left: 53px;
+    animation: an-1 1.7s infinite;
+}
+.an-4 {
+    background: #2ecc71;
+    width: 180px;
+    height: 20px;
+    margin: auto;
+    border-radius: 50%;
+    position: absolute;
+    left: 61px;
+    top: 15px;
+    animation: an-1 1.8s infinite;
+}
+.an-5 {
+    background: #3498db;
+    width: 150px;
+    height: 15px;
+    margin: auto;
+    border-radius: 50%;
+    position: absolute;
+    left: 77px;
+    top: 18px;
+    animation: an-1 1.9s infinite;
+}
+.an-6 {
+    background: #1abc9c;
+    width: 120px;
+    height: 8px;
+    margin: auto;
+    border-radius: 50%;
+    position: absolute;
+    left: 93px;
+    top: 21px;
+    animation: an-1 2s infinite;
+}*/
+
+/******** Animations *********/
+
+@keyframes talk{
+    0% {
+        opacity: 0;
+    }
+    20%{
+        opacity: 0.5;
+    }
+    50%{
+        opacity: 1;
+    }
+    70%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+@keyframes ft{
+    0% {
+        box-shadow: 0px 0px 6px 0px rgba(0, 255, 221,0);
+    padding: 10px 0px;
+    }
+    15% {
+        box-shadow: 0px 0px 6px 0px rgba(0, 255, 221, 0.35);
+    padding: 10px 0px;
+    }
+    30% {
+        box-shadow: 0px 0px 6px 0px rgba(0, 255, 221, 0.7);
+    padding: 10px 0px;
+    }
+    50% {
+        box-shadow: 0px 0px 6px 0px rgba(0, 255, 221, 1);
+    padding: 10px 0px;
+    }
+    70% {
+        box-shadow: 0px 0px 6px 0px rgba(0, 255, 221, 0.7);
+    padding: 10px 0px;
+    }
+    85% {
+        box-shadow: 0px 0px 6px 0px rgba(0, 255, 221, 0.35);
+    padding: 10px 0px;
+    }
+    100% {
+        box-shadow: 0px 0px 6px 0px rgba(0, 255, 221,0);
+    padding: 10px 0px;
+    }
+}
+            </style>
             <link rel="stylesheet" href="Responsive.css">
     </head>
 
